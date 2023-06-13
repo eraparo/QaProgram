@@ -4,5 +4,6 @@ describe("Test Admin", { testIsolation: false }, () => {
       });
     it('Go to Admin',()=>{
         cy.get(':nth-child(1) > .oxd-main-menu-item').click()
+        cy.wait(2000)
     })
 });
